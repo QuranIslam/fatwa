@@ -63,7 +63,31 @@ display: block;
 }.amiri_custom_content table .sep-td {
 display: none;
 }
-}</style>
+}
+.amiri_custom_content table {
+max-width: 100% !important;
+}@media (max-width: 480px) {
+.amiri_custom_content table td{
+display: block;
+}.amiri_custom_content table .sep-td {
+display: none;
+}
+}
+#toc {
+        background-color: #f9f9f9;
+        padding: 10px;
+        border: 1px solid #ccc;
+		max-width:265px;
+      }
+      #toc ol {
+        list-style-type: disclosure-closed;
+        padding-left: 0;
+      }
+      #toc a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+</style>
 <div class="amiri_custom_content card card-personal z-depth-4 animated fadeIn h-100 rounded">
 <div class="card-body" id="cntnt">
 <div class="card-title text-center py-2">
@@ -93,7 +117,7 @@ display: none;
 <div style="font-size:small!important;">(اختيار من أقسام الكتاب والفتاوى)</div>
 <form action="#" id="myForm">
   <select style="width:70%;" id="firstMenu">
-    <option value="">أقسام كتاب مجموع فتاوى ابن تيمية</option>
+    <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/">أقسام كتاب مجموع فتاوى ابن تيمية</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa1.html">مقدمة الكتاب</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa2.html">قاعدة في الجماعة والفرقة وسبب ذلك ونتيجته</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa3.html">قاعدة في توحيد الإلهية وإخلاص العمل والوجه لله</option>
@@ -120,7 +144,7 @@ display: none;
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa24.html">رسالة إلى نصر المنبجي</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa25.html">سئل ما تقول في الحلاج</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa26.html">سئل عمن يقول ما ثم إلا الله هل هو موافق لما يقوله الاتحادية</option>
-<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa27.html">سئل عن قول النبي صلى الله عليه وسلم: &quot;لا تسبوا الدهر فإن الله هو الدهر&quot;</option>
+<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa27.html">سئل عن قول النبي ﷺ: &quot;لا تسبوا الدهر فإن الله هو الدهر&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa28.html">الرسالة التدمرية</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa29.html">العقيدة الواسطية</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa30.html">مناظرة في العقيدة الواسطية</option>
@@ -132,7 +156,7 @@ display: none;
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa36.html">سئل هل يجوز الخوض فيما تكلم الناس فيه من مسائل أصول الدين</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa37.html">ما الذي يجب على المكلف اعتقاده</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa38.html">الشهادتان هي أصل الدين</option>
-<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa39.html">سئل عن قوله صلى الله عليه وسلم: &quot;تفترق أمتي على ثلاث وسبعين فرقة&quot;</option>
+<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa39.html">سئل عن قوله ﷺ: &quot;تفترق أمتي على ثلاث وسبعين فرقة&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa40.html">قاعدة الانحراف عن الوسط في أغلب الناس</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa41.html">الوصية الكبرى وهي رسالته إلى عدي بن مسافر</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa42.html">مذهب السلف في الاعتقاد ومذهب غيرهم من المتأخرين</option>
@@ -141,7 +165,7 @@ display: none;
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa45.html">الروح هل هي قديمة أم مخلوقة</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa46.html">الجان المؤمنين هل هم مخاطبون بفروع الشريعة أو بنفس التصديق فقط</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa47.html">الجمع بين حديث ابن مسعود وحديث حذيفة في كتابة القدر على الجنين</option>
-<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa48.html">سئل عن قوله صلى الله عليه وسلم: &quot;كل مولود يولد على الفطرة&quot;</option>
+<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa48.html">سئل عن قوله ﷺ: &quot;كل مولود يولد على الفطرة&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa49.html">فتنة القبر وإذا ارتد العبد هل يجازى بأعماله الصالحة قبل الردة</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa50.html">هل جميع الخلق يموتون حتى الملائكة</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa51.html">مذهب سائر المسلمين إثبات القيامة الكبرى والثواب والعقاب هناك وفي البرزخ</option>
@@ -186,11 +210,11 @@ display: none;
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa90.html">سئل عن جواب شبهة نفي الصفات وهي أن صفات الباري ليست زائدة على ذاته</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa91.html">الرسالة المدنية في الحقيقة والمجاز في الصفات</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa92.html">قال المعترض في الأسماء الحسنى النور الهادي يجب تأويله</option>
-<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa93.html">سئل عن قوله صلى الله عليه وسلم: &quot;الحجر الأسود يمين الله في الأرض وقوله إني لأجد نفس الرحمن من جهة اليمين&quot;</option>
+<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa93.html">سئل عن قوله ﷺ: &quot;الحجر الأسود يمين الله في الأرض وقوله إني لأجد نفس الرحمن من جهة اليمين&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa94.html">رؤية المؤمنين ربهم وهل ذلك عام للنساء ومتى يرينه</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa95.html">سئل عن لقاء الله هل هو رؤيته أو رؤية ثوابه</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa96.html">رسالة إلى أهل البحرين في رؤية الكفار ربهم</option>
-<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa97.html">معنى قوله صلى الله عليه وسلم: &quot;نور أنى أراه قوله رأيت نورا&quot;</option>
+<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa97.html">معنى قوله ﷺ: &quot;نور أنى أراه قوله رأيت نورا&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa98.html">سئل عن حديث &quot;إن الله ينادي بصوت&quot; وحديث &quot;يقول الله يا آدم&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa99.html">الرسالة العرشية</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa100.html">سئل عن رجلين تنازعا في كيفية السماء والأرض هل هما جسمان كرويان</option>
@@ -241,7 +265,7 @@ display: none;
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa145.html">أمراض القلوب وشفاؤها</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa146.html">فصل في مرض القلوب وشفاؤها أيضا</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa147.html">العبودية</option>
-<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa148.html">سئل عن قوله صلى الله عليه وسلم: &quot;دعوة أخي ذي النون ..&quot;</option>
+<option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa148.html">سئل عن قوله ﷺ: &quot;دعوة أخي ذي النون ..&quot;</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa149.html">فصل الفناء الذي يوجد في كلام الصوفية يفسر بثلاثة أمور</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa150.html">فصل الأمر والنهي مشروط بالممكن من العلم والقدرة</option>
 <option value="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa151.html">فصل في العبادات والفرق بين شرعيها وبدعيها</option>
@@ -587,6 +611,561 @@ display: none;
   });
 </script>
 </div>
+<h2>أجزاء الكتاب</h2>
+<div id="toc">
+      <ol>
+	<li><a href="#1">الجزء الأول</a></li>
+<li><a href="#2">الجزء الثاني</a></li>
+<li><a href="#3">الجزء الثالث</a></li>
+<li><a href="#4">الجزء الرابع</a></li>
+<li><a href="#5">الجزء الخامس</a></li>
+<li><a href="#6">الجزء السادس</a></li>
+<li><a href="#7">الجزء السابع</a></li>
+<li><a href="#8">الجزء الثامن</a></li>
+<li><a href="#9">الجزء التاسع</a></li>
+<li><a href="#10">الجزء العاشر</a></li>
+<li><a href="#11">الجزء الحادي عشر</a></li>
+<li><a href="#12">الجزء الثاني عشر</a></li>
+<li><a href="#13">الجزء الثالث عشر</a></li>
+<li><a href="#14">الجزء الرابع عشر</a></li>
+<li><a href="#15">الجزء الخامس عشر</a></li>
+<li><a href="#16">الجزء السادس عشر</a></li>
+<li><a href="#17">الجزء السابع عشر</a></li>
+<li><a href="#18">الجزء الثامن عشر</a></li>
+<li><a href="#19">الجزء التاسع عشر</a></li>
+<li><a href="#20">الجزء العشرون</a></li>
+<li><a href="#21">الجزء الحادي والعشرون</a></li>
+<li><a href="#22">الجزء الثاني والعشرون</a></li>
+<li><a href="#23">الجزء الثالث والعشرون</a></li>
+<li><a href="#24">الجزء الرابع والعشرون</a></li>
+<li><a href="#25">الجزء الخامس والعشرون</a></li>
+<li><a href="#26">الجزء السادس والعشرون</a></li>
+<li><a href="#27">الجزء السابع والعشرون</a></li>
+<li><a href="#28">الجزء الثامن والعشرون</a></li>
+<li><a href="#29">الجزء التاسع والعشرون</a></li>
+<li><a href="#30">الجزء الثلاثون</a></li>
+<li><a href="#31">الجزء الحادي والثلاثون</a></li>
+<li><a href="#32">الجزء الثاني والثلاثون</a></li>
+<li><a href="#33">الجزء الثالث والثلاثون</a></li>
+<li><a href="#34">الجزء الرابع والثلاثون</a></li>
+<li><a href="#35">الجزء الخامس والثلاثون</a></li>  
+	  </ol>
+	  </div>
+	  <br><br><hr>
+<h2 id="1" class="default-text-color"><i class="fa fa-folder"></i> الجزء الأول</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa01.html"><i class="fa fa-file-text"></i> مقدمة الكتاب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa02.html"><i class="fa fa-file-text"></i> قاعدة في الجماعة والفرقة وسبب ذلك ونتيجته <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa03.html"><i class="fa fa-file-text"></i> قاعدة في توحيد الإلهية وإخلاص العمل والوجه لله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa04.html"><i class="fa fa-file-text"></i> فصل في وجوب اختصاص الخالق بالعبادة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa05.html"><i class="fa fa-file-text"></i> فصل والسعادة في معاملة الخلق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa06.html"><i class="fa fa-file-text"></i> فصل قال الله اهدنا الصراط المستقيم إلى آخر السورة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa07.html"><i class="fa fa-file-text"></i> العبادات مبناها على الشرع والاتباع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa08.html"><i class="fa fa-file-text"></i> الشرك بالله أعظم ذنب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa09.html"><i class="fa fa-file-text"></i> سئل عمن قال يجوز الاستغاثة بالنبي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa10.html"><i class="fa fa-file-text"></i> فصل في الشفاعة المنفية في القرآن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa11.html"><i class="fa fa-file-text"></i> سئل عن رجلين قال أحدهما لا بد لنا من واسطة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa12.html"><i class="fa fa-file-text"></i> كتاب التوسل والوسيلة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="2" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثاني</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa13.html"><i class="fa fa-file-text"></i> قاعدة أولية أصل العلم الإلهي ومبدؤه ودليله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa14.html"><i class="fa fa-file-text"></i> فصل في تمهيد الأوائل وتقرير الدلائل ببيان أصل العلم والإيمان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa15.html"><i class="fa fa-file-text"></i> فصل قد تكلم طائفة من المتكلمة والمتفلسفة والمتصوفة في قيام الممكنات بالواجب القديم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa16.html"><i class="fa fa-file-text"></i> قاعدة أصل الإثبات والنفي والحب والبغض هو شعور النفس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa17.html"><i class="fa fa-file-text"></i> فصل ثم إن المنحرفين المتشابهين للصائبة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa18.html"><i class="fa fa-file-text"></i> سئل عن جماعة اجتمعوا على أمور متنوعة من الفساد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa19.html"><i class="fa fa-file-text"></i> سئل عن رجلين تشاجرا في معنى الرب حق والعبد حق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa20.html"><i class="fa fa-file-text"></i> كتاب فصوص الحكم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa21.html"><i class="fa fa-file-text"></i> حقيقة مذهب الاتحاديين ووحدة الوجود <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa22.html"><i class="fa fa-file-text"></i> الحجج النقلية والعقلية فيما ينافي الإسلام من بدع الجهمية والصوفية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa23.html"><i class="fa fa-file-text"></i> الرد الأقوم على ما في فصوص الحكم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa24.html"><i class="fa fa-file-text"></i> رسالة إلى نصر المنبجي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa25.html"><i class="fa fa-file-text"></i> سئل ما تقول في الحلاج <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa26.html"><i class="fa fa-file-text"></i> سئل عمن يقول ما ثم إلا الله هل هو موافق لما يقوله الاتحادية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa27.html"><i class="fa fa-file-text"></i> سئل عن قول النبي ﷺ: "لا تسبوا الدهر فإن الله هو الدهر" <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="3" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثالث</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa28.html"><i class="fa fa-file-text"></i> الرسالة التدمرية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa29.html"><i class="fa fa-file-text"></i> العقيدة الواسطية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa30.html"><i class="fa fa-file-text"></i> مناظرة في العقيدة الواسطية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa31.html"><i class="fa fa-file-text"></i> حكاية الشيخ علم الدين للمناظرة في الواسطية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa32.html"><i class="fa fa-file-text"></i> كتب ابن تيمية لأخيه زين الدين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa33.html"><i class="fa fa-file-text"></i> جواب عن ورقة أرسلت إليه في السجن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa34.html"><i class="fa fa-file-text"></i> محنة الشيخ في سجنه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa35.html"><i class="fa fa-file-text"></i> قاعدة لأهل السنة والجماعة الاعتصام بالكتاب والسنة وعدم الفرقة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa36.html"><i class="fa fa-file-text"></i> سئل هل يجوز الخوض فيما تكلم الناس فيه من مسائل أصول الدين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa37.html"><i class="fa fa-file-text"></i> ما الذي يجب على المكلف اعتقاده <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa38.html"><i class="fa fa-file-text"></i> الشهادتان هي أصل الدين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa39.html"><i class="fa fa-file-text"></i> سئل عن قوله ﷺ: "تفترق أمتي على ثلاث وسبعين فرقة" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa40.html"><i class="fa fa-file-text"></i> قاعدة الانحراف عن الوسط في أغلب الناس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa41.html"><i class="fa fa-file-text"></i> الوصية الكبرى وهي رسالته إلى عدي بن مسافر <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="4" class="default-text-color"><i class="fa fa-folder"></i> الجزء الرابع</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa42.html"><i class="fa fa-file-text"></i> مذهب السلف في الاعتقاد ومذهب غيرهم من المتأخرين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa43.html"><i class="fa fa-file-text"></i> الاستدلال بكون الشيء بدعة على كراهته قاعدة عظيمة وتمامها بالجواب عن ما يعارضها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa44.html"><i class="fa fa-file-text"></i> إذا كان المسلمون مقلدين والنصارى واليهود مقلدين فما وجه الرد عليهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa45.html"><i class="fa fa-file-text"></i> الروح هل هي قديمة أم مخلوقة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa46.html"><i class="fa fa-file-text"></i> الجان المؤمنين هل هم مخاطبون بفروع الشريعة أو بنفس التصديق فقط <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa47.html"><i class="fa fa-file-text"></i> الجمع بين حديث ابن مسعود وحديث حذيفة في كتابة القدر على الجنين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa48.html"><i class="fa fa-file-text"></i> سئل عن قوله ﷺ: "كل مولود يولد على الفطرة" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa49.html"><i class="fa fa-file-text"></i> فتنة القبر وإذا ارتد العبد هل يجازى بأعماله الصالحة قبل الردة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa50.html"><i class="fa fa-file-text"></i> هل جميع الخلق يموتون حتى الملائكة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa51.html"><i class="fa fa-file-text"></i> مذهب سائر المسلمين إثبات القيامة الكبرى والثواب والعقاب هناك وفي البرزخ <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa52.html"><i class="fa fa-file-text"></i> هل يحتاج العبد موتا ثانيا بعد أن تدخل الروح في جسده <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa53.html"><i class="fa fa-file-text"></i> الصغير والطفل إذا ماتا هل يمتحنان في القبر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa54.html"><i class="fa fa-file-text"></i> عذاب القبر هل هو على النفس والبدن أو على النفس دون البدن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa55.html"><i class="fa fa-file-text"></i> أسئلة متفرقة في الاعتقاد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa56.html"><i class="fa fa-file-text"></i> سئل عن الذبيح هل هو إسماعيل أو إسحاق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa57.html"><i class="fa fa-file-text"></i> هل الخضر نبيا أو وليا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa58.html"><i class="fa fa-file-text"></i> هل الجنة التي سكنها آدم هي جنة الخلد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa59.html"><i class="fa fa-file-text"></i> فصل في التفضيل بين الملائكة والناس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa60.html"><i class="fa fa-file-text"></i> فضل الصحابة رضي الله عنهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa61.html"><i class="fa fa-file-text"></i> تفضيل أبي بكر ثم عمر على علي متفق عليه بين أئمة المسلمين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa62.html"><i class="fa fa-file-text"></i> إسلام معاوية متى كان وهل كان إيمانه كإيمان غيره وما قيل فيه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa63.html"><i class="fa fa-file-text"></i> افترق الناس في يزيد بن معاوية ثلاث فرق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa64.html"><i class="fa fa-file-text"></i> سئل عن مسائل متفرقة في الصحابة رضي الله عنهم <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="5" class="default-text-color"><i class="fa fa-folder"></i> الجزء الخامس</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa65.html"><i class="fa fa-file-text"></i> الفتوى الحموية الكبرى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa66.html"><i class="fa fa-file-text"></i> علو الله تعالى واستوائه على عرشه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa67.html"><i class="fa fa-file-text"></i> علو الله على سائر مخلوقاته <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa68.html"><i class="fa fa-file-text"></i> المراكشية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa69.html"><i class="fa fa-file-text"></i> سئل عن قوله: <span class="aaya">الرحمن على العرش استوى</span> وقوله ينزل ربنا هل الاستواء والنزول حقيقة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa70.html"><i class="fa fa-file-text"></i> فصل في الجمع بين علو الرب وقربه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa71.html"><i class="fa fa-file-text"></i> سئل عن رجلين قال أحدهما من لا يعتقد أن الله في السماء فهو ضال وقال الآخر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa72.html"><i class="fa fa-file-text"></i> سئل عمن يعتقد الجهة هل هو مبتدع أو كافر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa73.html"><i class="fa fa-file-text"></i> سئل عن أبيات في مباينة الله للعالم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa74.html"><i class="fa fa-file-text"></i> شرح حديث النزول <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="6" class="default-text-color"><i class="fa fa-folder"></i> الجزء السادس</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa75.html"><i class="fa fa-file-text"></i> تقرب العبد إلى الله بمعلوم وأعمال <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa76.html"><i class="fa fa-file-text"></i> في إثبات القرب وأنواعه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa77.html"><i class="fa fa-file-text"></i> سئل عمن يقول إن النصوص تظاهرت ظواهرها على ما هو جسم أو يشعر به والعقل دل على تنزيه الباري عنه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa78.html"><i class="fa fa-file-text"></i> في جمل مقالات الطوائف في الصفات وموادهم ومستندهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa79.html"><i class="fa fa-file-text"></i> الأشياء لها وجود في الأعيان ووجود في الأذهان ووجود في اللسان ووجود في البنان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa80.html"><i class="fa fa-file-text"></i> مما يبين أن طريقة اتباع الأنبياء هي الموصلة إلى الحق دون طريقة من خالفهم من الفلاسفة والمتكلمين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa81.html"><i class="fa fa-file-text"></i> تفصيل الإجمال في ما يجب لله من صفات الكمال أو الأكملية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa82.html"><i class="fa fa-file-text"></i> قال الله تعالى: <span class="aaya">ولله الأسماء الحسنى</span> الآية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa83.html"><i class="fa fa-file-text"></i> في القاعدة العظيمة في مسائل الصفات والأفعال من حيث قدمها ووجوبها وجوازها ومشتقاتها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa84.html"><i class="fa fa-file-text"></i> قاعدة في الاسم والمسمى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa85.html"><i class="fa fa-file-text"></i> سئل عمن قال أن الإمام أحمد كان من أعظم النفاة للصفات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa86.html"><i class="fa fa-file-text"></i> فصل في الصفات للاختيارية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa87.html"><i class="fa fa-file-text"></i> في اتصاله بالصفات الفعلية مثل الخالق والرازق هل هو قديم أم لا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa88.html"><i class="fa fa-file-text"></i> فيما ذكره الرازي في الأربعين في مسألة الصفات الاختيارية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa89.html"><i class="fa fa-file-text"></i> قاعدة شريفة وهي أن جميع ما يحتج به المبطل إنما يدل على الحق لا يدل على قول المبطل بل على فساده <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa90.html"><i class="fa fa-file-text"></i> سئل عن جواب شبهة نفي الصفات وهي أن صفات الباري ليست زائدة على ذاته <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa91.html"><i class="fa fa-file-text"></i> الرسالة المدنية في الحقيقة والمجاز في الصفات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa92.html"><i class="fa fa-file-text"></i> قال المعترض في الأسماء الحسنى النور الهادي يجب تأويله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa93.html"><i class="fa fa-file-text"></i> سئل عن قوله ﷺ: "الحجر الأسود يمين الله في الأرض وقوله إني لأجد نفس الرحمن من جهة اليمين" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa94.html"><i class="fa fa-file-text"></i> رؤية المؤمنين ربهم وهل ذلك عام للنساء ومتى يرينه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa95.html"><i class="fa fa-file-text"></i> سئل عن لقاء الله هل هو رؤيته أو رؤية ثوابه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa96.html"><i class="fa fa-file-text"></i> رسالة إلى أهل البحرين في رؤية الكفار ربهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa97.html"><i class="fa fa-file-text"></i> معنى قوله ﷺ: "نور أنى أراه قوله رأيت نورا" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa98.html"><i class="fa fa-file-text"></i> سئل عن حديث "إن الله ينادي بصوت" وحديث "يقول الله يا آدم" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa99.html"><i class="fa fa-file-text"></i> الرسالة العرشية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa100.html"><i class="fa fa-file-text"></i> سئل عن رجلين تنازعا في كيفية السماء والأرض هل هما جسمان كرويان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa101.html"><i class="fa fa-file-text"></i> سئل عن خلق السموات والأرض وتركيب النيرين والكواكب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa102.html"><i class="fa fa-file-text"></i> سئل هل خلق الله السموات والأرض قبل الليل والنهار <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="7" class="default-text-color"><i class="fa fa-folder"></i> الجزء السابع</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa103.html"><i class="fa fa-file-text"></i> كتاب الإيمان الكبير <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa104.html"><i class="fa fa-file-text"></i> كتاب الإيمان الأوسط <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa105.html"><i class="fa fa-file-text"></i> سئل عن الإيمان بالله ورسوله هل فوقه مقام أو حال وهل تدخل فيه جميع المقامات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa106.html"><i class="fa fa-file-text"></i> الاستثناء في الإيمان ومآخذ من أوجبه أو منعه أو استحبه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa107.html"><i class="fa fa-file-text"></i> سئل عن معنى حديث "إذا زنى العبد خرج منه الإيمان فكان فوق رأسه كالظلة ..." <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa108.html"><i class="fa fa-file-text"></i> سئل عن معنى حديث "لا يدخل الجنة من كان في قلبه مثقال ذرة من كبر" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa109.html"><i class="fa fa-file-text"></i> سئل عن بدعة المرازقة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="8" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثامن</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa110.html"><i class="fa fa-file-text"></i> فصل في قدرة الرب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa111.html"><i class="fa fa-file-text"></i> سئل عن تفصيل الإرادة والإذن والكتاب والحكم والقضاء والتحريم وغير ذلك مما هو ديني أو كوني <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa112.html"><i class="fa fa-file-text"></i> سئل عن جماعة اختلفوا في قضاء الله وقدره منهم من يرى أن الخير من الله والشر من النفس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa113.html"><i class="fa fa-file-text"></i> سئل عن حديث "إن الله قبض قبضتين ..." <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa114.html"><i class="fa fa-file-text"></i> سئل عن حسن إرادة الله لخلق الخلق، وهل يخلق لعلة أو لغير علة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa115.html"><i class="fa fa-file-text"></i> عن معنى قول علي لا يرجون عبد إلا ربه ولا يخافن إلا ذنبه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa116.html"><i class="fa fa-file-text"></i> سئل عن قوله تعالى <span class="aaya">إنما أمره إذا أراد شيئا</span> <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa117.html"><i class="fa fa-file-text"></i> سئل عن الأقضية هل هي مقتضية للحكمة .. <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa118.html"><i class="fa fa-file-text"></i> في الفروق التي يتبين بها كون الحسنة من الله والسيئة من النفس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa119.html"><i class="fa fa-file-text"></i> سئل عمن يعتقد أن الخير من الله والشر من الشيطان وأن الشر بيد العبد .. <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa120.html"><i class="fa fa-file-text"></i> جواب عن أبيات في معارضة الأمر بالقدر أو القصيدة التائية في القدر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa121.html"><i class="fa fa-file-text"></i> القدرية ثلاثة أصناف مشركية ومجوسية وإبليسية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa122.html"><i class="fa fa-file-text"></i> سئل عن أقوام يحتجون بسابق القدر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa123.html"><i class="fa fa-file-text"></i> سئل عن قوم خصوا بالسعادة وقوم بالشقاوة والسعيد لا يشقى والشقي لا يسعد ... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa124.html"><i class="fa fa-file-text"></i> فصل في قوله فحج آدم موسى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa125.html"><i class="fa fa-file-text"></i> فصل في استطاعة العبد هل هي مع فعله أم قبله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa126.html"><i class="fa fa-file-text"></i> فصل وأما السؤال عن تعليل أفعال الله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa127.html"><i class="fa fa-file-text"></i> أفعال العبد الاختيارية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa128.html"><i class="fa fa-file-text"></i> سئل عن أفعال العباد هل هي قديمة أم مخلوقة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa129.html"><i class="fa fa-file-text"></i> مسألة تحسين العقل وتقبيحه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa130.html"><i class="fa fa-file-text"></i> سئل عن العبد هل يقدر أن يفعل الطاعة إذا أراد أم لا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa131.html"><i class="fa fa-file-text"></i> سئل عن أبيات في الجبر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa132.html"><i class="fa fa-file-text"></i> سئل عن المقتول هل مات بأجله أم قطع القاتل أجله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa133.html"><i class="fa fa-file-text"></i> سئل عن الغلاء والرخص هل هما من الله أم لا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa134.html"><i class="fa fa-file-text"></i> سئل عما قاله أبو حامد في منهاج القاصدين في الرزق المضمون والمقسوم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa135.html"><i class="fa fa-file-text"></i> سئل عن قول الشيخ عبد القادر نازعت أقدار الحق بالحق للحق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa136.html"><i class="fa fa-file-text"></i> سئل عن قول الخطيب بن نباتة أبرأ من الحلول والقوة إلا إليه <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="9" class="default-text-color"><i class="fa fa-folder"></i> الجزء التاسع</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa137.html"><i class="fa fa-file-text"></i> سئل عن المنطق وهل من قال إنه فرض كفاية مصيب ((نقض المنطق)) <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa138.html"><i class="fa fa-file-text"></i> مختصر نصيحة أهل الإيمان في الرد على منطق اليونان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa139.html"><i class="fa fa-file-text"></i> فصل في ضبط كليات المنطق والخلل فيه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa140.html"><i class="fa fa-file-text"></i> فصل ملخص المنطق اليوناني <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa141.html"><i class="fa fa-file-text"></i> سئل عن كتب المنطق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa142.html"><i class="fa fa-file-text"></i> سئل عن العقل هل هو عرض وهل الروح هي النفس وهل هي عرض أو جوهر .. <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa143.html"><i class="fa fa-file-text"></i> فصل ثم إن الله خلق القلب للإنسان يعلم به الأشياء كما خلق سائر الحواس <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="10" class="default-text-color"><i class="fa fa-folder"></i> الجزء العاشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa144.html"><i class="fa fa-file-text"></i> التحفة العراقية في الأعمال القلبية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa145.html"><i class="fa fa-file-text"></i> أمراض القلوب وشفاؤها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa146.html"><i class="fa fa-file-text"></i> فصل في مرض القلوب وشفاؤها أيضا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa147.html"><i class="fa fa-file-text"></i> العبودية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa148.html"><i class="fa fa-file-text"></i> سئل عن قوله ﷺ: "دعوة أخي ذي النون .." <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa149.html"><i class="fa fa-file-text"></i> فصل الفناء الذي يوجد في كلام الصوفية يفسر بثلاثة أمور <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa150.html"><i class="fa fa-file-text"></i> فصل الأمر والنهي مشروط بالممكن من العلم والقدرة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa151.html"><i class="fa fa-file-text"></i> فصل في العبادات والفرق بين شرعيها وبدعيها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa152.html"><i class="fa fa-file-text"></i> فصل وأما قوله هل الأفضل للسالك العزلة أو الخلطة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa153.html"><i class="fa fa-file-text"></i> اتباع الرسول بصريح المعقول <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa154.html"><i class="fa fa-file-text"></i> في شرح كلمات لعبد القادر في كتاب فتوح الغيب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa155.html"><i class="fa fa-file-text"></i> فصل قد دل الكتاب والسنة على جنس المشروع في ذكر الله ودعائه ومراتب الأذكار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa156.html"><i class="fa fa-file-text"></i> فصل في الصراط المستقيم في الزهد والعبادة والورع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa157.html"><i class="fa fa-file-text"></i> فصل في قول بعض الناس الثواب على قدر المشقة ليس بمستقيم على إطلاقه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa158.html"><i class="fa fa-file-text"></i> فصل في تزكية النفس وكيف تزكو <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa159.html"><i class="fa fa-file-text"></i> سئل عن قوله <span class="aaya">حق اليقين</span> و<span class="aaya">علم اليقين</span> و<span class="aaya">عين اليقين</span> ... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa160.html"><i class="fa fa-file-text"></i> الوصية الصغرى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa161.html"><i class="fa fa-file-text"></i> سئل عن (الصبر الجميل) و(الهجر الجميل) و(الصفح الجميل) وأقسام التقوى والصبر.. <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa162.html"><i class="fa fa-file-text"></i> سئل عن قولهم الرضا أن لا تسأل الله الجنة ولا تستعيذ به من النار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa163.html"><i class="fa fa-file-text"></i> سئل فيمن عزم على فعل محرم عزما جازما فعجز عنه هل يأثم بمجرد العزم <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="11" class="default-text-color"><i class="fa fa-folder"></i> الجزء الحادي عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa164.html"><i class="fa fa-file-text"></i> الصوفية والفقراء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa165.html"><i class="fa fa-file-text"></i> مسألة في الفقر والتصوف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa166.html"><i class="fa fa-file-text"></i> سئل عن أهل الصفة كم كانوا وهل كانوا بمكة أو المدينة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa167.html"><i class="fa fa-file-text"></i> سئل عن قوم يروون أحاديث لا سند لها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa168.html"><i class="fa fa-file-text"></i> سئل عن جماعة يجتمعون في مجلس ويلبسون لشخص منهم لباس الفتوى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa169.html"><i class="fa fa-file-text"></i> فصل والشيخ عدي بن مسافر بن صخر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa170.html"><i class="fa fa-file-text"></i> سئل عما يذكر من قولهم اتخذوا مع الفقراء أيادي وقول عمر وكنت كالزنجي بينهما <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa171.html"><i class="fa fa-file-text"></i> أيهما أفضل الفقير الصابر أو الغني الشاكر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa172.html"><i class="fa fa-file-text"></i> تلخيص مناظرة جرت بين ابن تيمية وبين ابن المرحل في الحمد والشكر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa173.html"><i class="fa fa-file-text"></i> الفرق بين أولياء الرحمن وأولياء الشيطان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa174.html"><i class="fa fa-file-text"></i> قاعدة في المعجزات والكرامات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa175.html"><i class="fa fa-file-text"></i> فصل تكلم طائفة من الصوفية في خاتم الأولياء وعظموا أمره <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa176.html"><i class="fa fa-file-text"></i> فصل تكلم الحكيم الترمذي في كتاب ختم الولاية بكلام مردود فقال <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa177.html"><i class="fa fa-file-text"></i> سئل عن قوله (زدني فيك تحيرا ...) <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa178.html"><i class="fa fa-file-text"></i> سئل ما الحكمة في أن المشتغلين بالذكر والفكر يحصل لهم من الكرامات ما لا يحصل للمشتغلين بالعلم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa179.html"><i class="fa fa-file-text"></i> سئل عن قوم داوموا على الرياضة فرأوا أنهم قد تجوهروا وسقط عنهم الأمر والنهي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa180.html"><i class="fa fa-file-text"></i> سئل عن الحديث المروي في الأبدال ... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa181.html"><i class="fa fa-file-text"></i> مناظرة ابن تيمية لدجاجلة البطائحية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa182.html"><i class="fa fa-file-text"></i> سئل عن المرشدة كيف كان أصلها وتأليفها وهل تجوز قراءتها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa183.html"><i class="fa fa-file-text"></i> سئل عن قوم منتسبين إلى المشايخ ... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa184.html"><i class="fa fa-file-text"></i> سئل عن جماعة اجتمعوا على أمور من الفساد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa185.html"><i class="fa fa-file-text"></i> سئل عما أحدثه الفقراء المجردون والمطوعون من صحبة الشباب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa186.html"><i class="fa fa-file-text"></i> سئل عن سماع الصالحين وسماع القصائد الملحنة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa187.html"><i class="fa fa-file-text"></i> سئل عن السماع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa188.html"><i class="fa fa-file-text"></i> سئل عن الكبائر هل لها حد تعرف به وعن الصحيح من الأقوال فيها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa189.html"><i class="fa fa-file-text"></i> وكل من تاب من أي ذنب فإن الله يتوب عليه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa190.html"><i class="fa fa-file-text"></i> فصل في أن التوبة والاستغفار يكون من ترك الواجبات وفعل المحرمات <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="12" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثاني عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa191.html"><i class="fa fa-file-text"></i> قاعدة في القرآن وكلام الله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa192.html"><i class="fa fa-file-text"></i> مسألة الأحرف التي أنزلها الله على آدم هل هي كلام الله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa193.html"><i class="fa fa-file-text"></i> فصل في أن القرآن العظيم كلام الله ليس شيء منه كلاما لغيره <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa194.html"><i class="fa fa-file-text"></i> المسألة المصرية في القرآن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa195.html"><i class="fa fa-file-text"></i> سئل عن بيان ما يجب على الإنسان أن يعتقده ويصير به مسلما من أن ما في المصاحف هل هو كلام الله القديم أو عبارة عنه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa196.html"><i class="fa fa-file-text"></i> التبيان في نزول القرآن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa197.html"><i class="fa fa-file-text"></i> سئل عن قوله <span class="aaya">وإن أحد من المشركين استجارك فأجره حتى يسمع كلام الله</span> <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa198.html"><i class="fa fa-file-text"></i> الكيلانية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa199.html"><i class="fa fa-file-text"></i> سئل عمن قال إن الله لم يكلم موسى تكليما وإنما خلق الكلام والصوت... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa200.html"><i class="fa fa-file-text"></i> سئل عمن قال إن الله لم يكلم موسى... فقال آخر إن قلت كلمه فالكلام لا يكون إلا بحرف وصوت <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa201.html"><i class="fa fa-file-text"></i> القرآن الذي نتلوه القائم بنا حين التلاوة هل هو كلام الله الذي قام به حين تكلم به وكان صفة له أم لا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa202.html"><i class="fa fa-file-text"></i> وأما قول القائل‏:‏ هل يكون كلام الله مجازًا‏؟‏  <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa203.html"><i class="fa fa-file-text"></i> سئل عن من يقول الكلام غير المتكلم والقول غير القائل والقرآن والمقروء والقارئ كل منهم له معنى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa204.html"><i class="fa fa-file-text"></i> سئل هل نفس المصحف هو نفس القرآن أم كتابته وما بصدور القراء هل هو نفس القرآن أو حفظه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa205.html"><i class="fa fa-file-text"></i> سئل عمن يقول إن الشكل والنقط من كلام الله وما الحكم في الأحرف هل هي كلام الله أم لا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa206.html"><i class="fa fa-file-text"></i> فصل في القرآن والكلام هل هو حرف وصوت أم ليس بحرف وصوت <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="13" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثالث عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa207.html"><i class="fa fa-file-text"></i> الفرقان بين الحق والباطل <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa208.html"><i class="fa fa-file-text"></i> رسالة في علم الباطن والظاهر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa209.html"><i class="fa fa-file-text"></i> الإكليل في المتشابه والتأويل <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa210.html"><i class="fa fa-file-text"></i> إقسام القرآن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa211.html"><i class="fa fa-file-text"></i> مقدمة التفسير <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa212.html"><i class="fa fa-file-text"></i> فصل القرآن هو الهدى والشفاء والنور وأحسن القصص وهو الصراط المستقيم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa213.html"><i class="fa fa-file-text"></i> سئل عن قوله: "من فسر القرآن برأيه فليتبوأ مقعده من النار" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa214.html"><i class="fa fa-file-text"></i> سئل أي التفاسير أحسن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa215.html"><i class="fa fa-file-text"></i> سئل عن قوله: "أنزل القرآن على سبعة أحرف" ما المراد به <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa216.html"><i class="fa fa-file-text"></i> فصل في تحزيب القرآن وفي كم يقرأ وفي مقدار الصيام والقيام المشروع <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="14" class="default-text-color"><i class="fa fa-folder"></i> الجزء الرابع عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa217.html"><i class="fa fa-file-text"></i> تفسير سورة الفاتحة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa218.html"><i class="fa fa-file-text"></i> تفسير سورة البقرة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa219.html"><i class="fa fa-file-text"></i> تفسير سورة آل عمران <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa220.html"><i class="fa fa-file-text"></i> تفسير سورة المائدة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa221.html"><i class="fa fa-file-text"></i> تفسير سورة الأنعام <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="15" class="default-text-color"><i class="fa fa-folder"></i> الجزء الخامس عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa222.html"><i class="fa fa-file-text"></i> تفسير سورة الأعراف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa223.html"><i class="fa fa-file-text"></i> تفسير سورة الأنفال <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa224.html"><i class="fa fa-file-text"></i> تفسير سورة التوبة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa225.html"><i class="fa fa-file-text"></i> تفسير سورة يونس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa226.html"><i class="fa fa-file-text"></i> تفسير سورة هود <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa227.html"><i class="fa fa-file-text"></i> تفسير سورة يوسف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa228.html"><i class="fa fa-file-text"></i> تفسير سورة الرعد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa229.html"><i class="fa fa-file-text"></i> تفسير سورة الحجر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa230.html"><i class="fa fa-file-text"></i> تفسير سورة النحل <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa231.html"><i class="fa fa-file-text"></i> تفسير سورة الإسراء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa232.html"><i class="fa fa-file-text"></i> تفسير سورة الكهف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa233.html"><i class="fa fa-file-text"></i> تفسير سورة مريم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa234.html"><i class="fa fa-file-text"></i> تفسير سورة طه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa235.html"><i class="fa fa-file-text"></i> تفسير سورة الأنبياء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa236.html"><i class="fa fa-file-text"></i> تفسير سورة الحج <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa237.html"><i class="fa fa-file-text"></i> تفسير سورة المؤمنون <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa238.html"><i class="fa fa-file-text"></i> تفسير سورة النور <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa239.html"><i class="fa fa-file-text"></i> تفسير سورة الفرقان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa240.html"><i class="fa fa-file-text"></i> تفسير سورة النمل <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa241.html"><i class="fa fa-file-text"></i> تفسير سورة الأحزاب <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="16" class="default-text-color"><i class="fa fa-folder"></i> الجزء السادس عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa242.html"><i class="fa fa-file-text"></i> تفسير سورة الزمر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa243.html"><i class="fa fa-file-text"></i> تفسير سورة الشورى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa244.html"><i class="fa fa-file-text"></i> تفسير سورة الزخرف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa245.html"><i class="fa fa-file-text"></i> تفسير سورة الأحقاف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa246.html"><i class="fa fa-file-text"></i> تفسير سورة ق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa247.html"><i class="fa fa-file-text"></i> تفسير سورة المجادلة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa248.html"><i class="fa fa-file-text"></i> تفسير سورة الطلاق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa249.html"><i class="fa fa-file-text"></i> تفسير سورة التحريم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa250.html"><i class="fa fa-file-text"></i> تفسير سورة الملك <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa251.html"><i class="fa fa-file-text"></i> تفسير سورة القلم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa252.html"><i class="fa fa-file-text"></i> تفسير سورة عبس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa253.html"><i class="fa fa-file-text"></i> تفسير سورة التكوير <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa254.html"><i class="fa fa-file-text"></i> تفسير سورة الأعلى <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa255.html"><i class="fa fa-file-text"></i> تفسير سورة الغاشية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa256.html"><i class="fa fa-file-text"></i> تفسير سورة البلد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa257.html"><i class="fa fa-file-text"></i> تفسير سورة الشمس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa258.html"><i class="fa fa-file-text"></i> تفسير سورة العلق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa259.html"><i class="fa fa-file-text"></i> تفسير سورة البينة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa260.html"><i class="fa fa-file-text"></i> تفسير سورة التكاثر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa261.html"><i class="fa fa-file-text"></i> تفسير سورة الهمزة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa262.html"><i class="fa fa-file-text"></i> تفسير سورة الكوثر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa263.html"><i class="fa fa-file-text"></i> تفسير سورة تبت <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="17" class="default-text-color"><i class="fa fa-folder"></i> الجزء السابع عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa264.html"><i class="fa fa-file-text"></i> تفسير سورة الإخلاص <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa265.html"><i class="fa fa-file-text"></i> تفسير سورة الفلق والناس <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="18" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثامن عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa266.html"><i class="fa fa-file-text"></i> سئل عن حد الحديث النبوي أهو ما قاله في عمره أو بعد البعثة أو تشريعا... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa267.html"><i class="fa fa-file-text"></i> فصل وأما قول السائل إذا صح الحديث فهل يلزم أن يكون صدقا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa268.html"><i class="fa fa-file-text"></i> فصل في تقسيم الترمذي الحديث إلى صحيح وحسن وضعيف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa269.html"><i class="fa fa-file-text"></i> فصل في أنواع الرواية وأنواع السماع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa270.html"><i class="fa fa-file-text"></i> سئل عن معنى قولهم حديث حسن أو مرسل.. <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa271.html"><i class="fa fa-file-text"></i> الخبر ثلاثة أقسام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa272.html"><i class="fa fa-file-text"></i> لفظ المتواتر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa273.html"><i class="fa fa-file-text"></i> الرد على بعض أهل الكلام الذين يصفون المتأخرين من أهل الحديث بقلة الفهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa274.html"><i class="fa fa-file-text"></i> معنى قول أحمد إذا جاء الحلال والحرام شددنا في الأسانيد وإذا جاء الترغيب والترهيب تساهلنا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa275.html"><i class="fa fa-file-text"></i> سئل عمن يقول لا أسمع من (كتاب الحلية) شيئا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa276.html"><i class="fa fa-file-text"></i> سئل عن أصح كتب الحديث وهل الموطأ أصح من البخاري <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa277.html"><i class="fa fa-file-text"></i> الأربعين التي رواها ابن تيمية بالسند <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa278.html"><i class="fa fa-file-text"></i> سئل عن أحاديث رويت عن النبي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa279.html"><i class="fa fa-file-text"></i> شرح حديث "إني حرمت الظلم على نفسي" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa280.html"><i class="fa fa-file-text"></i> شرح حديث "كان الله ولم يكن شيء قبله" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa281.html"><i class="fa fa-file-text"></i> شرح حديث "إنما الأعمال بالبنيات" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa282.html"><i class="fa fa-file-text"></i> فصل في معنى حديث خطبة الحاجة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa283.html"><i class="fa fa-file-text"></i> فصل في حديث "بدأ الإسلام غريبا" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa284.html"><i class="fa fa-file-text"></i> سئل عن أحاديث "سبعة لا تموت ولا تفنى" و"أوتيت جوامع الكلم" و"أن تجعل القرآن ربيع صدري" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa285.html"><i class="fa fa-file-text"></i> فصل في قوله "المرء مع من أحب" وغيره من الأحاديث <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa286.html"><i class="fa fa-file-text"></i> فصل فيما يتعلق بالثلاث المهلكات شح مطاع وهوى متبع وإعجاب كل ذي رأي برأيه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa287.html"><i class="fa fa-file-text"></i> سئل عن أحاديث هل هي صحيحة وما معناها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa288.html"><i class="fa fa-file-text"></i> بيان ما في (كتاب تنقلات الأنوار) من الأكاذيب على الرسول <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa289.html"><i class="fa fa-file-text"></i> سئل عن أناس قصاصين ينقلون مغازي النبي... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa290.html"><i class="fa fa-file-text"></i> معنى حديث "على كل مسلم صدقة" <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa291.html"><i class="fa fa-file-text"></i> سئل عن أحاديث يرويها القصاص وغيرهم <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="19" class="default-text-color"><i class="fa fa-folder"></i> الجزء التاسع عشر</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa292.html"><i class="fa fa-file-text"></i> فصل الكتاب والسنة والإجماع وبإزائه لقوم آخرين المنامات والإسرائيليات والحكايات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa293.html"><i class="fa fa-file-text"></i> إيضاح الدلالة في عموم الرسالة للثقلين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa294.html"><i class="fa fa-file-text"></i> فصل في الاكتفاء بالرسالة والاستغناء بالنبي من اتباع ما سواه اتباعا عاما <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa295.html"><i class="fa fa-file-text"></i> أصل جامع في الاعتصام بكتاب الله ووجوب اتباعه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa296.html"><i class="fa fa-file-text"></i> قاعدة في وجوب الاعتصام بالرسالة... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa297.html"><i class="fa fa-file-text"></i> فصل في توحد الملة وتعدد الشرائع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa298.html"><i class="fa fa-file-text"></i> معارج الوصول <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa299.html"><i class="fa fa-file-text"></i> قاعدة في تصويب المجتهدين وتخطئتهم وتأثيمهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa300.html"><i class="fa fa-file-text"></i> فصل في قول بعض الناس العلوم الشرعية والعقلية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa301.html"><i class="fa fa-file-text"></i> فصل من حدود الأسماء التي علق الله بها الأحكام ما يعرف بالشرع ومنها ما يعرف باللغة ومنها ما يعرف بالعرف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa302.html"><i class="fa fa-file-text"></i> فصل في التقليد الذي حرمه الله ورسوله <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa303.html"><i class="fa fa-file-text"></i> سئل عمن يقول إن النصوص لا تفي بعشر معشار الشريعة... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa304.html"><i class="fa fa-file-text"></i> فصل للعبد في العبادات المأمور بها ثلاث أحوال أو حالان <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="20" class="default-text-color"><i class="fa fa-folder"></i> الجزء العشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa305.html"><i class="fa fa-file-text"></i> الله دلنا على نفسه بما أخبرنا به في كتابه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa306.html"><i class="fa fa-file-text"></i> سئل عن معنى إجماع العلماء وهل يسوغ للمجتهد خلافهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa307.html"><i class="fa fa-file-text"></i> سئل عن الاجتهاد والاستدلال والتقليد والاتباع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa308.html"><i class="fa fa-file-text"></i> سئل هل كل مجتهد مصيب أو المصيب واحد والباقون مخطئون <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa309.html"><i class="fa fa-file-text"></i> سئل هل البخاري ومسلم وأبو داود و... مجتهدون <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa310.html"><i class="fa fa-file-text"></i> القلب المعمور بالتقوى إذا رجح بمجرد رأيه فهل هو ترجيح شرعي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa311.html"><i class="fa fa-file-text"></i> فصل في تعارض الحسنات أو السيئات أو هما <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa312.html"><i class="fa fa-file-text"></i> الحسنات والعبادات ثلاثة أقسام عقلية، وملية، وشرعية وكذلك العلوم والأقوال <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa313.html"><i class="fa fa-file-text"></i> فصل الصدق أساس الحسنات وجماعها والكذب أساس السيئات ونظامها <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa314.html"><i class="fa fa-file-text"></i> قاعدة في أن جنس فعل المأمور به أعظم من جنس ترك المنهي عنه ... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa315.html"><i class="fa fa-file-text"></i> تنازع الناس في الأمر بالشيء هل يكون أمرا بلوازمه وهل يكون نهيا عن ضده ... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa316.html"><i class="fa fa-file-text"></i> فصل في تعليل الحكم الواحد بعلتين ووجود مقدر بين قادرين وفعل بين فاعلين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa317.html"><i class="fa fa-file-text"></i> فصل المنحرفون من أتباع الأئمة في انحرافهم على أنواع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa318.html"><i class="fa fa-file-text"></i> فصل المتكلم باللفظ العام لابد أن يقوم بقلبه معنى عام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa319.html"><i class="fa fa-file-text"></i> فصل الحسنات والسيئات كل منهما يعلل بعلتين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa320.html"><i class="fa fa-file-text"></i> شرع الله ورسوله للعمل بوصف العموم لا يقتضي أن يكون مشروعا بوصف الخصوص كالذكر والدعاء إلا بدليل <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa321.html"><i class="fa fa-file-text"></i> كثير من المتكلمة والفقهاء يوجب النظر والاستدلال في المسائل الأصولية على كل أحد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa322.html"><i class="fa fa-file-text"></i> سئل عن رجل تفقه في مذهب من المذاهب الأربعة ثم انتقل إلى مذهب لحديث صح عنده <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa323.html"><i class="fa fa-file-text"></i> رفع الملام عن الأئمة الأعلام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa324.html"><i class="fa fa-file-text"></i> صحة مذهب أهل المدينة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa325.html"><i class="fa fa-file-text"></i> الحقيقة والمجاز <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa326.html"><i class="fa fa-file-text"></i> مسألة في القياس <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="21" class="default-text-color"><i class="fa fa-folder"></i> الجزء الحادي والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa327.html"><i class="fa fa-file-text"></i> باب المياه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa328.html"><i class="fa fa-file-text"></i> باب الآنية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa329.html"><i class="fa fa-file-text"></i> باب الاستنجاء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa330.html"><i class="fa fa-file-text"></i> باب السواك <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa331.html"><i class="fa fa-file-text"></i> باب الوضوء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa332.html"><i class="fa fa-file-text"></i> باب المسح على الخفين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa333.html"><i class="fa fa-file-text"></i> باب نواقض الوضوء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa334.html"><i class="fa fa-file-text"></i> باب الغسل <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa335.html"><i class="fa fa-file-text"></i> باب التيمم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa336.html"><i class="fa fa-file-text"></i> باب إزالة النجاسة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa337.html"><i class="fa fa-file-text"></i> باب الحيض <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="22" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثاني والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa338.html"><i class="fa fa-file-text"></i> باب الصلاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa339.html"><i class="fa fa-file-text"></i> باب الأذان والإقامة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa340.html"><i class="fa fa-file-text"></i> باب شروط الصلاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa341.html"><i class="fa fa-file-text"></i> باب صفة الصلاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa342.html"><i class="fa fa-file-text"></i> باب الذكر بعد الصلاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa343.html"><i class="fa fa-file-text"></i> باب ما يحرم أو يكره في الصلاة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="23" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثالث والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa344.html"><i class="fa fa-file-text"></i> باب سجود السهو <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa345.html"><i class="fa fa-file-text"></i> باب صلاة التطوع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa346.html"><i class="fa fa-file-text"></i> باب صلاة الجماعة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa347.html"><i class="fa fa-file-text"></i> باب الإمامة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="24" class="default-text-color"><i class="fa fa-folder"></i> الجزء الرابع والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa348.html"><i class="fa fa-file-text"></i> باب صلاة أهل الأعذار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa349.html"><i class="fa fa-file-text"></i> باب صلاة الجمعة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa350.html"><i class="fa fa-file-text"></i> باب صلاة العيدين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa351.html"><i class="fa fa-file-text"></i> باب صلاة الكسوف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa352.html"><i class="fa fa-file-text"></i> كتاب الجنائز <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa353.html"><i class="fa fa-file-text"></i> باب زيارة القبور <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="25" class="default-text-color"><i class="fa fa-folder"></i> الجزء الخامس والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa354.html"><i class="fa fa-file-text"></i> كتاب الزكاة (قاعدة في الزكاة) <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa355.html"><i class="fa fa-file-text"></i> باب زكاة الخارج من الأرض <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa356.html"><i class="fa fa-file-text"></i> باب صدقة الفطر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa357.html"><i class="fa fa-file-text"></i> باب إخراج الزكاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa358.html"><i class="fa fa-file-text"></i> كتاب الصيام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa359.html"><i class="fa fa-file-text"></i> رسالة في الهلال <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa360.html"><i class="fa fa-file-text"></i> سئل عن أهل مدينة رأى بعضهم هلال ذي الحجة ولم يثبت عند الحاكم فهل لهم أن يصوموا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa361.html"><i class="fa fa-file-text"></i> سئل هل ينكر على الصائم في السفر وأسئلة أخرى في الصيام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa362.html"><i class="fa fa-file-text"></i> فصل فيما يفطر الصائم وما لا يفطره <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa363.html"><i class="fa fa-file-text"></i> مسألة في الاقتصاد في العبادات كالصيام والصلاة والقراءة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa364.html"><i class="fa fa-file-text"></i> مسائل في ليلة القدر والاعتكاف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa365.html"><i class="fa fa-file-text"></i> سئل عما يفعله الناس في يوم عاشوراء من التنظف وإظهار السرور... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa366.html"><i class="fa fa-file-text"></i> سئل عما يفعله بعض من يدعي الإسلام في عيد النصارى الخميس <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="26" class="default-text-color"><i class="fa fa-folder"></i> الجزء السادس والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa367.html"><i class="fa fa-file-text"></i> باب الحج والعمرة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa368.html"><i class="fa fa-file-text"></i> باب الإحرام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa369.html"><i class="fa fa-file-text"></i> منسك ابن تيمية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa370.html"><i class="fa fa-file-text"></i> فصل وأما الحج فأخذ فيه فقهاء الحديث بالسنن في صفته وأحكامه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa371.html"><i class="fa fa-file-text"></i> سئل عن طواف الحائض والجنب والمحدث <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa372.html"><i class="fa fa-file-text"></i> سئل عن مسائل في الحيض يبتلى بها شطر النسوة في الحج <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa373.html"><i class="fa fa-file-text"></i> سئل أيما أفضل لمن كان بمكة الطواف بالبيت أو الرجوع إلى الحل ليعتمر منه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa374.html"><i class="fa fa-file-text"></i> باب الهدى والأضحية والعقيقة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="27" class="default-text-color"><i class="fa fa-folder"></i> الجزء السابع والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa375.html"><i class="fa fa-file-text"></i> فصل في زيارة بيت المقدس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa376.html"><i class="fa fa-file-text"></i> سئل هل الأفضل المجاورة بمكة أو بمسجد النبي أو الأقصى أو الثغور <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa377.html"><i class="fa fa-file-text"></i> سئل هل تفضل الإقامة في الشام على غيره من البلاد وهل جاء في ذلك نص في القرآن أو الحديث <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa378.html"><i class="fa fa-file-text"></i> سئل عمن يزور القبور ويستنجد بالقبور <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa379.html"><i class="fa fa-file-text"></i> سئل عن قول بعضهم الدعاء مستجاب عند قبور أربعة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa380.html"><i class="fa fa-file-text"></i> سئل عمن يأتي إلى قبر بعض الأنبياء أو غيره فيدعوه لكشف كربته هل ذلك سنة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa381.html"><i class="fa fa-file-text"></i> سئل عمن نوى السفر إلى زيارة قبور الأنبياء والصالحين هل يجوز له الاقصر... <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa382.html"><i class="fa fa-file-text"></i> تحامل قضاة مصر على الشيخ وانتصار علماء بغداد والشام له <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa383.html"><i class="fa fa-file-text"></i> مختصر رد المؤلف على الأخنائي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa384.html"><i class="fa fa-file-text"></i> إبطال المؤلف لفتاوى قضاة مصر بحبسه وعقوبته <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa385.html"><i class="fa fa-file-text"></i> الجواب الباهر لمن سأله من أولياء الأمور عما أفتى به في زيارة المقابر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa386.html"><i class="fa fa-file-text"></i> مكان رأس الحبس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa387.html"><i class="fa fa-file-text"></i> مسائل متفرقة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa388.html"><i class="fa fa-file-text"></i> فصل ثبت للشام وأهله مناقب <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="28" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثامن والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa389.html"><i class="fa fa-file-text"></i> سئل عن فضائل الرمي وتعليمه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa390.html"><i class="fa fa-file-text"></i> رسالة من الشيخ إلى أصحابه وهو في سجن الإسكندرية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa391.html"><i class="fa fa-file-text"></i> الحسبة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa392.html"><i class="fa fa-file-text"></i> فصل في الأمر بالمعروف والنهي عن المنكر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa393.html"><i class="fa fa-file-text"></i> فصل في مراتب الذنوب في الدنيا في الذم والعقاب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa394.html"><i class="fa fa-file-text"></i> فصل في الموالاة والمعاداة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa395.html"><i class="fa fa-file-text"></i> سئل عمن يجب أو يجوز بغضه وهجره <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa396.html"><i class="fa fa-file-text"></i> فصل هل تظهر العداوة لمن قال القرآن مخلوق أم يدارون <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa397.html"><i class="fa fa-file-text"></i> سئل عن قوله "لا غيبة لفاسق" وهل تجوز غيبة المعين أو النوع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa398.html"><i class="fa fa-file-text"></i> رسالته إلى السلطان يأمره بإقامة الصلاة وإيتاء الزكاة والأمر بالمعروف والنهي عن المنكر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa399.html"><i class="fa fa-file-text"></i> السياسة الشرعية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa400.html"><i class="fa fa-file-text"></i> تهنئة المؤلف للملك الناصر بفتح جبل كسروان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa401.html"><i class="fa fa-file-text"></i> رسالة ابن تيمية لما قدم التتار إلى حلب عسكر مصر وبقى عسكر الشام <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa402.html"><i class="fa fa-file-text"></i> غزوة الخندق وتفسير سورة الأحزاب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa403.html"><i class="fa fa-file-text"></i> سئل عن الرافضة الإمامية هل يجب قتالهم ويكفرون باعتقادهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa404.html"><i class="fa fa-file-text"></i> ما تقول في التتار هل يجب قتالهم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa405.html"><i class="fa fa-file-text"></i> سئل عما كان يعطيه الملوك للمرتزقة من الفقراء والمساكين <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa406.html"><i class="fa fa-file-text"></i> سئل عن الأموال التي يجهل مستحقها هل تعطى لأحد أو تحبس أو تتلف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa407.html"><i class="fa fa-file-text"></i> الرسالة القبرصية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa408.html"><i class="fa fa-file-text"></i> سئل هل المدينة من الشام وما تقول في الكنائس التي أغلقت في القاهرة هل ذلك ظلم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa409.html"><i class="fa fa-file-text"></i> فصل في شروط عمر على أهل الذمة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="29" class="default-text-color"><i class="fa fa-folder"></i> الجزء التاسع والعشرون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa410.html"><i class="fa fa-file-text"></i> قواعد جامعة في العقود ضد المعاملات والنكاح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa411.html"><i class="fa fa-file-text"></i> باب الشروط في البَيْع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa412.html"><i class="fa fa-file-text"></i> باب الخيار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa413.html"><i class="fa fa-file-text"></i> باب الربا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa414.html"><i class="fa fa-file-text"></i> باب بَيْع الأصُول والثمَار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa415.html"><i class="fa fa-file-text"></i> بَاب السَّلَم <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa416.html"><i class="fa fa-file-text"></i> باب القرض <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa417.html"><i class="fa fa-file-text"></i> باب الرهن <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa418.html"><i class="fa fa-file-text"></i> بَاب الضّمَان <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa419.html"><i class="fa fa-file-text"></i> بَاب الحوَالة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="30" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثلاثون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa420.html"><i class="fa fa-file-text"></i> باب الصلح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa421.html"><i class="fa fa-file-text"></i> باب الحجر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa422.html"><i class="fa fa-file-text"></i> باب الوكالة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa423.html"><i class="fa fa-file-text"></i> باب الشركة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa424.html"><i class="fa fa-file-text"></i> باب المساقاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa425.html"><i class="fa fa-file-text"></i> باب الإجارة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa426.html"><i class="fa fa-file-text"></i> مسألة وضع الجوائح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa427.html"><i class="fa fa-file-text"></i> باب العارية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa428.html"><i class="fa fa-file-text"></i> باب الغصب <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa429.html"><i class="fa fa-file-text"></i> المظالم المشتركة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa430.html"><i class="fa fa-file-text"></i> باب الشفعة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa431.html"><i class="fa fa-file-text"></i> باب الوديعة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa432.html"><i class="fa fa-file-text"></i> باب إحياء الموات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa433.html"><i class="fa fa-file-text"></i> باب اللقطة <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="31" class="default-text-color"><i class="fa fa-folder"></i> الجزء الحادي والثلاثون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa434.html"><i class="fa fa-file-text"></i> كتاب الوقف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa435.html"><i class="fa fa-file-text"></i> باب الهبة والعطية <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa436.html"><i class="fa fa-file-text"></i> كتاب الوصايا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa437.html"><i class="fa fa-file-text"></i> باب الموصي إليه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa438.html"><i class="fa fa-file-text"></i> كتاب الفرائض <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa439.html"><i class="fa fa-file-text"></i> باب العتق <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="32" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثاني والثلاثون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa440.html"><i class="fa fa-file-text"></i> كتاب النكاح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa441.html"><i class="fa fa-file-text"></i> باب أركان النكاح وشروطه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa442.html"><i class="fa fa-file-text"></i> باب المحرمات في النكاح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa443.html"><i class="fa fa-file-text"></i> باب الشروط في النكاح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa444.html"><i class="fa fa-file-text"></i> باب العيوب في النكاح <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa445.html"><i class="fa fa-file-text"></i> باب نكاح الكفار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa446.html"><i class="fa fa-file-text"></i> باب الصداق <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa447.html"><i class="fa fa-file-text"></i> باب وليمة العرس <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa448.html"><i class="fa fa-file-text"></i> باب العشرة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa449.html"><i class="fa fa-file-text"></i> باب القسم بين الزوجات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa450.html"><i class="fa fa-file-text"></i> باب النشوز <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa451.html"><i class="fa fa-file-text"></i> باب الخلع <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="33" class="default-text-color"><i class="fa fa-folder"></i> الجزء الثالث والثلاثون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa452.html"><i class="fa fa-file-text"></i> باب طلاق السنة وطلاق البدعة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa453.html"><i class="fa fa-file-text"></i> باب طلاق السكران ونحوه <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa454.html"><i class="fa fa-file-text"></i> باب الحلف بالطلاق وغير ذلك <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa455.html"><i class="fa fa-file-text"></i> باب تعليق الطلاق بالشروط <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="34" class="default-text-color"><i class="fa fa-folder"></i> الجزء الرابع والثلاثون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa456.html"><i class="fa fa-file-text"></i> باب الظهار <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa457.html"><i class="fa fa-file-text"></i> باب ما يلحق من النَّسَبِ <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa458.html"><i class="fa fa-file-text"></i> باب العدد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa459.html"><i class="fa fa-file-text"></i> باب الاستبراء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa460.html"><i class="fa fa-file-text"></i> باب الرضاع <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa461.html"><i class="fa fa-file-text"></i> باب النفقات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa462.html"><i class="fa fa-file-text"></i> باب الحضانة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa463.html"><i class="fa fa-file-text"></i> باب الجنايات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa464.html"><i class="fa fa-file-text"></i> كتاب الحدود <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa465.html"><i class="fa fa-file-text"></i> باب حد الزنا <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa466.html"><i class="fa fa-file-text"></i> باب حد القذف <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa467.html"><i class="fa fa-file-text"></i> باب حد المسكر <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa468.html"><i class="fa fa-file-text"></i> باب التعزير <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa469.html"><i class="fa fa-file-text"></i> باب القطع في السرقة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa470.html"><i class="fa fa-file-text"></i> باب حد قطاع الطريق <i class="fa fa-external-link sharh"></i></a></li>
+</ul><hr><h2 id="35" class="default-text-color"><i class="fa fa-folder"></i> الجزء الخامس والثلاثون</h2><ul style="list-style: none;">
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa471.html"><i class="fa fa-file-text"></i> باب الخلافة والملك وقتال أهل البغي <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa472.html"><i class="fa fa-file-text"></i> باب حكم المرتد <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa473.html"><i class="fa fa-file-text"></i> كتاب الأطعمة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa474.html"><i class="fa fa-file-text"></i> باب الذكاة <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa475.html"><i class="fa fa-file-text"></i> باب الأيمان والنذور <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa476.html"><i class="fa fa-file-text"></i> باب القضاء <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa477.html"><i class="fa fa-file-text"></i> باب الشهادات <i class="fa fa-external-link sharh"></i></a></li>
+<li><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah/fatwa478.html"><i class="fa fa-file-text"></i> باب القسمة <i class="fa fa-external-link sharh"></i></a></li></ul>
+
 <hr>
 <a href="http://www.archive.org/details/mfsiaitmmfsiaitm">تحميل كتاب مجموع فتاوى شيخ الإسلام أحمد بن تيمية بصيغة PDF <i class="fa fa-external-link sharh"></i></a><br><a href="https://quranislam.github.io/fatwa/ibn-taymiyyah.xml">تحميل كتاب مجموع فتاوى شيخ الإسلام أحمد بن تيمية بصيغة XML <i class="fa fa-external-link sharh"></i></a></div>
 </div>
